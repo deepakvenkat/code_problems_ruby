@@ -16,4 +16,15 @@ describe NumberProblem do
       NumberProblem.factorial(5).should == 120
     end
   end
+
+  describe "#reverse_integer" do
+    it "should return invalid for non integers" do
+      NumberProblem.reverse_integer(1.1).should == "invalid input"
+      NumberProblem.reverse_integer("123").should == "invalid input"
+    end
+    it "should reverse the integer" do
+      NumberProblem.reverse_integer(0).should == 0
+      NumberProblem.reverse_integer(123).should == 321
+    end
+  end
 end
