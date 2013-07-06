@@ -7,5 +7,6 @@ require_relative '../lib/stack'
 require_relative '../lib/balanced_brackets'
 require_relative '../lib/anagram_detection'
 require_relative '../lib/array_pair_sum'
+require_relative '../lib/array_search'
 
 require 'yaml'
