@@ -10,5 +10,6 @@ require_relative '../lib/array_pair_sum'
 require_relative '../lib/array_search'
 require_relative '../lib/largest_continuous_sum'
 require_relative '../lib/missing_element'
+require_relative '../lib/first_unique_element'
 
 require 'yaml'
